@@ -1,0 +1,28 @@
+<div class="form-div">
+  <form action="/auth/signup" method="POST" class="log-form">
+    <h2 class="form-title">Create Account</h2>
+
+    <label> Username
+      <input type="text" name="username" placeholder="Your username" />
+    </label>
+
+    <label> Email
+      <input type="email" name="email" placeholder="Your email" />
+    </label>
+
+    <label> Password
+      <input type="password" name="password" placeholder="Your password" />
+    </label>
+
+    <button type="submit" class="log-btn">Sign Up</button>
+
+    <p class="forms-p">Already got an Account? <a href="/auth/login">Log In!</a></p>
+
+    {{#if errorMessage}}
+      <p class="error">{{errorMessage}}</p>
+    {{/if}}
+   
+
+
+  </form>
+</div>
