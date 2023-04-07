@@ -150,7 +150,7 @@ The url to your repository and to your deployed project
 
 [https://github.com/PrPedrosa/Project2-express-App/tree/dev]() -->
 
-<a href="https://gaminghub.cyclic.app/">Gaming Hub link</a>
+<a href="https://gaming-hub.cyclic.app/">Gaming Hub link</a>
 
 
 
